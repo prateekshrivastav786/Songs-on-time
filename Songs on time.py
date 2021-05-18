@@ -13,7 +13,7 @@ if t[11:19]== "07:22:25":           # user's selected time
     print("Your song is playing!!!")
     webbrowser.open('https://www.youtube.com/watch?v=jCXN3BKA9dE')   # opening the website of song
   
- elif t[11:19] > "07:22:25" and t[11:19] < "08:22:22":
+elif t[11:19] > "07:22:25" and t[11:19] < "08:22:22":
     print("Your song is waiting for you!!! Playing...")
     webbrowser.open('https://www.youtube.com/watch?v=vCoi_p7drek')
     
@@ -27,9 +27,10 @@ else:
     print("No song lined up for you now, Please go for your study")
     time.sleep(4) # halting the program for 4 seconds
     print("\tJust Kidding!!! I know you won't")
+    time.sleep(2)
     print("You have this great song...")
     time.sleep(2)
-    webbrowser.open('https://www.youtube.com/watch?v=nX7TJmQpN7I')
+    webbrowser.open('https://www.youtube.com/watch?v=pldIIwmdqlQ')
 print("\nThe current time is:", t)
 
 
